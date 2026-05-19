@@ -72,7 +72,7 @@ pipeline {
                 echo 'Checking out latest framework code from GitHub'
 
                 git branch: 'main',
-                        url: 'https://github.com/shabina29/appium-bdd-ci-cd-framework.git'
+                        url: 'https://github.com/shabinashahin26/appium-bdd-ci-cd-framework1.git'
             }
         }
 
@@ -199,7 +199,7 @@ Reports Generated:
 
 """,
 
-                    to: "shahinshabina93@gmail.com",
+                    to: "shabinashahin09@gmail.com",
 
                     attachLog: true
             )
@@ -235,7 +235,7 @@ Please verify:
 
 """,
 
-                    to: "shahinshabina93@gmail.com",
+                    to: "shabinashahin09@gmail.com",
 
                     attachLog: true
             )
@@ -264,7 +264,7 @@ Please review failed or skipped scenarios.
 
 """,
 
-                    to: "shahinshabina93@gmail.com",
+                    to: "shabinashahin09@gmail.com",
 
                     attachLog: true
             )
