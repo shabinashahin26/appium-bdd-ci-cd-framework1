@@ -1,0 +1,13 @@
+<suite name="Appium Suite">
+
+    <test name="Mobile Tests">
+
+        <classes>
+
+            <class name="com.framework.runner.TestRunner"/>
+
+        </classes>
+
+    </test>
+
+</suite>
