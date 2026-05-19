@@ -1,13 +1,19 @@
 package com.framework.pages;
 
 import com.framework.drivermanager.DriverManager;
+
+import io.appium.java_client.AppiumBy;
+
 import org.openqa.selenium.By;
+
 
 public class HomePage {
 
-    // Locator for title text
+    // Locator for home screen title
     private By title =
-            By.xpath("//*[contains(@text,'Hello')]");
+            AppiumBy.androidUIAutomator(
+                    "new UiSelector().text(\"Hello Shabina CI/CD Demo v2\")"
+            );
 
     // Locator for LOGIN button
     private By loginButton =
